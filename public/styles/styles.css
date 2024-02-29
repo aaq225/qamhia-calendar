@@ -1,0 +1,22 @@
+/*#1: #E6D168
+  #2: #E5AC1D
+  #3: #E4C31B which translates to the following in rgba, because I wanted to adjust alpha: rgba(174, 230, 28, 0.6);
+  #4: #AEE61C which translates to the following in rgba, because I wanted to adjust alpha: rgba(174, 230, 28, 0.6);
+*/
+
+.today {
+    background-color: yellow;
+}
+
+#container {
+    text-align: center;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 120vh;
+    height: 70vh;
+    background-color: rgba(228, 195, 27, 0.4);
+}
+
