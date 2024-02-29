@@ -20,3 +20,42 @@ table {
     background-color: rgba(228, 195, 27, 0.4);
 }
 
+th {
+    border-bottom: 1px solid black;
+    background-color: #E5AC1D;
+}
+
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 20px;
+}
+
+body {
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+html,
+body {
+    height: 100vh;
+}
+
+.today {
+    background-color: rgba(174, 230, 28, 0.6);
+}
+
+.days th {
+    padding: 6px;
+    background-color: #E6D168;
+}
+
+.btn a {
+    color: black;
+}
+
+.btn a:hover {
+    color: white;
+}
