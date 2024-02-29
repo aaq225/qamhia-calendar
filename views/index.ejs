@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Calendar</title>
+  <link rel="stylesheet" href="../styles/styles.css" />
+</head>
+
+<body>
+  <div id="container">
+    <table>
+      <thead>
+        <tr>
+          <th class="btn"><a href="">&lt;&lt;</a></th>
+          <th class="btn"><a href="">&lt;</a></th>
+          <th class="title" colspan="3">
+            <h3><%=header%></h3>
+          </th>
+          <th class="btn"><a href="">&gt;</a></th>
+          <th class="btn"><a href="">&gt;&gt;</a></th>
+        </tr>
+        <tr class="days">
+          <th>SU</th>
+          <th>MO</th>
+          <th>TU</th>
+          <th>WE</th>
+          <th>TH</th>
+          <th>FR</th>
+          <th>SA</th>
+        </tr>
+      </thead>
+      <tbody>
+        <%-calendar%>
+      </tbody>
+    </table>
+  </div>
+  <script src="../scripts/script.js"></script>
+</body>
+
+</html>
