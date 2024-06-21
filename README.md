@@ -5,5 +5,6 @@ To run:
 1. Clone the repo
 3. Cd into the repo
 4. run: npm install
-5. proceed to browser and enter: localhost:3000/calendar
-6. Enjoy
+5. run: node app.js
+6. proceed to browser and enter: localhost:3000/calendar
+7. Enjoy
