@@ -1,9 +1,4 @@
-/* 
-Abdelrahman Qamhia
-aaq225
-CSE 264
-Prog3
-*/
+
 const express = require("express");
 const path = require("path");
 const sprintf = require('sprintf-js').sprintf;
