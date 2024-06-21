@@ -1,4 +1,4 @@
-This is a basic Calendar implementation using HTML, CSS, JavaScript, Node.Js, Express.Js
+This is a basic Calendar implementation using HTML, CSS, JavaScript, Node.Js, Express.Js, EJS
 
 To run:
 
